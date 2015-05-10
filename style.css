@@ -1,0 +1,40 @@
+html{
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+#loginPage{
+	
+	font-size: 17px;
+}
+#login{
+	margin: 10px;
+}
+
+input{
+	margin: 10px 0px;
+	font-size: 17px;
+	padding: 10px;
+	
+}
+
+#username, #password{
+	width: 100%;
+}
+
+
+
+
+button{
+	margin: 10px 0px;
+	padding: 10px;
+	font-size: 17px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.black{
+	background-color: #202020;
+	color: white;
+}
