@@ -2,6 +2,7 @@ html{
 	font-family: helvetica;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 #loginPage{
@@ -9,7 +10,7 @@ html{
 	font-size: 17px;
 }
 #login{
-	margin: 10px;
+	margin:  50% 10px ;
 }
 
 input{
