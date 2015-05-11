@@ -40,7 +40,8 @@ $(function(){
 					localStorage.setItem("username", $username.val());
 		        	localStorage.setItem("password", $password.val());
 		           	activeProfile=profiles[i];
-		        	$('#loginPage').fadeOut();
+		           	$('#headerName').text('user: ' + activeProfile.name);
+		        	$('#loginPage').fadeOut(0.0001);
 					$username.val('');
 					$password.val('');
 					break;
